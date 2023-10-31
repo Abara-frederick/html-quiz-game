@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ GAME</title>
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="formDiv">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+                <div class="container-fluid">
+                    <h4>QUIZ APPLICATION</h3>                
+                </div>  
+                <div>
+                    <h3 id="curentscore">SCORES</h3>
+                </div>
+
+            </nav>
+            <div id="sheet"><h5 id="question"></h5>
+                <input type="radio" name="choice" id="optionn1" value="a">
+                <label for="optionn1" id="option1"></label><br>
+        
+                <input type="radio" name="choice" id="optionn2" value="b">
+                <label for="optionn2" id="option2"></label><br>
+        
+                <input type="radio" name="choice" id="optionn3" value="c">
+                <label for="optionn3" id="option3"></label><br>
+        
+                <input type="radio" name="choice" id="optionn4" value="d">
+                <label for="optionn4" id="option4"></label><br>
+                <h4 id="questionCount"></h4> 
+            </div>
+            
+            <div id="okDiv" style="display: inline-block;"></div>
+            <div id="buttonDiv" style="display: inline-block;">
+                <button id="nextBtn" onclick="main()">Next question</button>
+            </div>
+            <div id="checkResultDiv" style="display: inline-block;"></div>
+        </div>
+        
+        
+        
+    </div>
+    <script src="03quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(133, 155, 172);
+}
+
+.formDiv{
+    background-color:rgb(219, 222, 226);
+    width: 70%;
+    height: 70%;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    
+}
+
+.container-fluid{
+    width: 75%;
+
+}
+#curentscore{
+    font-size: 120%;
+    
+}
+
+#nextBtn{
+    height: 45px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 153, 224);
+    cursor: pointer;
+}
+
+#nextBtn{
+
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 153, 224);
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+#nextBtn:hover{
+    background-color: rgb(133, 175, 231);
+    transition: 500ms;
+}
+
+#checkResult{
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 153, 224);
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    text-decoration-line: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#checkResult:hover{
+    background-color: rgb(133, 175, 231);
+    transition: 500ms;
+}
+
+.okBtn{
+    height: 60px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 153, 224);
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.okBtn:hover{
+        background-color: rgb(133, 175, 231);
+        transition: 500ms;
+}
+
+nav h3{
+    font-size: 150%;
+    color: rgb(12, 63, 129);
+    
+    
+}
+
+nav h4{
+    justify-self: flex-start;
+    font-size: 150%;
+    color: rgb(12, 63, 129);
+}
+
+label{
+    font-size: 25px;
+    color: rgb(43, 42, 42);
+}
+
+#question{
+    color: rgb(70, 69, 69);
+    font-size: 27px;
+}
+
+#questionCount{
+    color: rgb(43, 42, 42);
+    font-size: 20px;
+}
